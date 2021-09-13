@@ -9,6 +9,10 @@ public class Individual {
 		this.name = name;
 	}
 
+	public Individual() {
+		super();
+	}
+
 	public String getName() {
 		return name;
 	}
