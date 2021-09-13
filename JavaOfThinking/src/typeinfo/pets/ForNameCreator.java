@@ -11,7 +11,7 @@ public class ForNameCreator extends PetCreator{
 	private static String[] typeNames = {
 			"typeinfo.pets.Mutt",
 			"typeinfo.pets.Pug",
-			"typeinfo.pets.EgyptianMay",
+			"typeinfo.pets.EgyptianMau",
 			"typeinfo.pets.Manx",
 			"typeinfo.pets.Cymric",
 			"typeinfo.pets.Rat",
@@ -19,6 +19,7 @@ public class ForNameCreator extends PetCreator{
 			"typeinfo.pets.Hamster"
 	};
 	
+	@SuppressWarnings("unchecked")
 	private static void loader() {
 		try {
 			for (String name:typeNames) {
