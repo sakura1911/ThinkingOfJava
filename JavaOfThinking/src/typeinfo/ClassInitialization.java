@@ -28,7 +28,6 @@ public class ClassInitialization {
 	
 	public static Random rand = new Random(47);
 	public static void main(String[] args) throws Exception {
-		// 仅使用.class不会引发初始化（没有执行类的静态代码块）
 		Class initable = Initable.class;
 		System.out.println("After creating Initable ref");
 		// Does not trigger initalization:

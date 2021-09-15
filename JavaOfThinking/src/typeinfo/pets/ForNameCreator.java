@@ -7,7 +7,6 @@ public class ForNameCreator extends PetCreator{
 
 	public static List<Class<? extends Pet>> types = new ArrayList<>();
 	
-	// 需要随机生成的类型名
 	private static String[] typeNames = {
 			"typeinfo.pets.Mutt",
 			"typeinfo.pets.Pug",
@@ -19,7 +18,6 @@ public class ForNameCreator extends PetCreator{
 			"typeinfo.pets.Hamster"
 	};
 	
-	@SuppressWarnings("unchecked")
 	private static void loader() {
 		try {
 			for (String name:typeNames) {

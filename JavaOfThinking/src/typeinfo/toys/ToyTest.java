@@ -1,6 +1,3 @@
-// typeinfo/toys/ToyTest.java
-// 测试 Class 类
-// {java typeinfo.toys.ToyTest}
 package typeinfo.toys;
 
 interface HasBatteries {}
@@ -8,7 +5,6 @@ interface Waterproof {}
 interface Shoots {}
 
 class Toy {
-    // 注释下面的无参数构造器会引起 NoSuchMethodError 错误
     Toy() {}
     Toy(int i) {}
 }
@@ -44,7 +40,6 @@ public class ToyTest {
         Object obj = null;
 
         try {
-            // Requires no-arg constructor:
             obj = up.newInstance();
         } catch(InstantiationException e) {
             System.out.println("Cannot instantiate");

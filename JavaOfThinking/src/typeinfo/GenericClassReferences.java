@@ -7,7 +7,6 @@ public class GenericClassReferences {
 		Class<Integer> genericIntClass = int.class;
 		genericIntClass = Integer.class;
 		intClass = double.class;
-		//  genericIntClass = double.class; //·Ç·¨
 	}
 	
 }
