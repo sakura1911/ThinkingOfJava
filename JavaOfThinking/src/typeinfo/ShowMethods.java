@@ -34,6 +34,7 @@ public class ShowMethods {
                 for (Constructor ctor : ctors) {
                     System.out.println(pattern.matcher(ctor.toString()).replaceAll(""));
                 }
+                lines = methods.length + ctors.length;
             } else {
                 for (Method method : methods) {
                     if (method.toString().contains(args[1])) {
